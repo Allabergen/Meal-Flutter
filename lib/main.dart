@@ -15,7 +15,21 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Meals',
       theme: ThemeData(
-        primarySwatch: Colors.red,
+        primaryColor: Color(0xFFB32134),
+        accentColor: Color(0xFFFFFDD0),
+        canvasColor: Color(0xFFF5F5F5),
+        fontFamily: 'JosefinSans',
+        textTheme: ThemeData.light().textTheme.copyWith(
+              body1: TextStyle(color: Colors.black87),
+              body2: TextStyle(color: Colors.black87),
+              title: TextStyle(
+                fontSize: 20.0,
+                fontFamily: 'JosefinSans',
+                fontWeight: FontWeight.w600,
+                color: Color(0xFF212121),
+                shadows: [Shadow(color: Color(0xFFFFFDD0))],
+              ),
+            ),
       ),
       home: CategoriesScreen(),
     );
