@@ -2,7 +2,7 @@
 
 A Flutter App that shows Meal Recipes.
 
-## What's learned:
+![Mealss](https://github.com/Allabergen/assets/blob/master/mealss.jpg)
 
 **Navigation**:
 - The Flutter Navigator allows you to switch (push/pop/replace) between pages;
